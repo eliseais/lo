@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 34%, rgba(113,15,107,1) 80%, rgba(104,3,147,1) 100%);
+overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: column;
+}
+header {
+  position: relative;
+top: -204px;
+left: 25px;
+margin-bottom: -40px;
+color: white;
+font-family: 'Amatic SC', cursive;
+font-size: 76px;
+}
+}
+h1
+{
+    position: relative;
+
+    text-align: center;
+
+    color: white;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 62px;
+    font-weight: 700;
+}
+
+p
+{
+
+    color: white;
+
+    font-family: 'Amatic SC', cursive;
+}
+
+h2
+{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+h3
+{
+    margin-top: -50px;
+    margin-left: 67px;
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 61px;
+    font-weight: 700;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: white;
+}
+ul {
+  display: flex;
+width: 300px;
+color: white;
+justify-content: space-between;
+margin-top: -500px;
+}
+li
+{
+    position: relative;
+    top: 261px;
+    left: 25px;
+
+    margin-bottom: -45px;
+
+    color: white;
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 23px;
+}
+
+main
+{
+    overflow: hidden;
+
+    font-family: 'Amatic SC', cursive;
+padding-top: 708px;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.picturestexts
+{
+    margin-top: 50px;
+
+    justify-content: center;
+}
+
+.menu
+{
+    height: 313px;
+
+}
+
+.shaba
+{
+    top: -520px;
+    left: 37px;
+
+    width: 178px;
+    margin-left: 20px;
+
+    background: image;
+}
+
+.oblochko
+{
+    z-index: 1;
+    top: -240px;
+    left: -70px;
+
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+
+    background: image;
+}
+.endmenu {
+    height: 311px;
+}
+
+.vk
+{
+    position: relative;
+    top: 216px;
+    left: 221px;
+
+    width: 48px;
+    height: 108px;
+}
+
+.knopka
+{
+    display: block;
+
+    width: 152px;
+    height: 24px;
+    margin: 56px auto;
+    padding: 17px 13px;
+
+    transition: all .25s ease-in;
+    text-align: center;
+    text-decoration: none;
+
+    color: #00c6ff;
+    border: 1px solid #00c6ff;
+    background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 700px;
+}
+
+.vie:hover
+{
+    color: #fff;
+    background-position: 0 0;
+}
+@media (min-width: 1024px)
+{
+    h1
+    {
+      font-size: 82px;
+      margin-left: 227px;
+  /* margin-top: 82px; */
+    }
+
+    p
+    {
+      font-size: 56px;
+      height: 377px;
+      margin-bottom: 120px;
+      margin-left: 115px;
+    }
+
+    h2
+    {
+      font-size: 125px;
+  font-weight: 700;
+  margin-top: -353px;
+  margin-bottom: 311px;
+  margin-left: 343px;
+  color: white;
+    }
+
+    h3
+    {
+        font-size: 61px;
+        font-weight: 700;
+        margin-left: 74px;
+        margin-bottom: 30px;
+        margin-top: 13px;
+    }
+
+
+    .box-nashalo
+    {
+        font-size: 30px;
+
+        left: 30px;
+
+        margin-left: 92px;
+    }
+
+    li
+    {
+      font-size: 43px;
+top: 90vw;
+left: 74px;
+/* margin-bottom: -63px; */
+margin-right: 76px;
+}
+
+    .picturestexts
+    {
+        display: grid;
+margin-left: 40px;
+        grid-template-columns: 50px 20% min-content max-content 1fr 2fr auto;
+        grid-template-rows: auto minmax(50px, 50vh) 4em;
+        grid: repeat(6, 2fr) / repeat(2, 2fr);
+    }
+
+    .menu
+    {
+      height: 356px;
+      margin-top: 125px;
+    }
+
+.endmenu {
+  height: 359px;
+}
+.cat {
+
+}
+    .ramka {
+      margin-bottom: 53px;
+      margin-left: 98px;
+    }
+    .shaba
+    {
+        top: -515px;
+        left: 30px;
+
+        width: 550px;
+        margin-top: -189px;
+        margin-bottom: -230px;
+        margin-left: 297px;
+    }
+
+    .oblochko
+    {
+
+     width: 1064px;
+  margin-top: -99px;
+
+margin-left: 38px;
+    }
+
+    .knopka
+    {
+        font-size: 31px;
+        font-weight: 700;
+        font-weight: 700;
+        margin: 453px;
+        width: 259px;
+        height: 37px;
+        margin-top: 20px;
+        margin-bottom: 108px;
+        padding: 28px 19px;
+
+        border: 1px solid #00c6ff;
+    }
+
+    .vk
+    {
+      top: 401px;
+          left: 1017px;
+          width: 89px;
+    }
+
+}
